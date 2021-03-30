@@ -148,7 +148,7 @@ GEM
     jmespath (1.4.0)
     jsoneditor-rails (1.0.3)
       sass-rails
-    kramdown (2.3.0)
+    kramdown (2.3.1)
       rexml
     latex-decode (0.3.2)
     listen (3.1.5)
@@ -165,7 +165,9 @@ GEM
     meta-tags (2.13.0)
       actionpack (>= 3.2.0, < 6.1)
     method_source (1.0.0)
-    mimemagic (0.3.5)
+    mimemagic (0.3.10)
+      nokogiri (~> 1)
+      rake
     mini_magick (4.11.0)
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
